@@ -4,7 +4,8 @@
   "info": {
     "singularName": "template",
     "pluralName": "templates",
-    "displayName": "Template"
+    "displayName": "Template",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,23 @@
     },
     "date": {
       "type": "datetime"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mmm": {
+      "displayName": "mmm",
+      "type": "component",
+      "repeatable": false,
+      "component": "student.mmm"
     }
   }
 }

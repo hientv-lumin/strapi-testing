@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_student_mmms",
+  "info": {
+    "displayName": "mmm"
+  },
+  "options": {},
+  "attributes": {
+    "mmm": {
+      "type": "enumeration",
+      "enum": [
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}
